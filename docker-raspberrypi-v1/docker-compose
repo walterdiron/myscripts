@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Instalamos docker-compose:
+sudo pip3 install docker-compose
+
+#Habilitamos el servicio de docker:
+sudo systemctl enable docker
+
+#Levantamos un contenedor de prueba, en este caso hello-world
+docker run hello-world

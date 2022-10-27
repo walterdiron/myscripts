@@ -21,6 +21,7 @@ Este es un instructivo para un tutorial en Youtube https://youtu.be/pliGG1M87W8
      vim \
      fail2ban \
      ntfs-3g
+
 ```
 
 ### 4. Instalar firmas GPG del repo de Docker
@@ -47,7 +48,7 @@ sudo apt-get update && sudo apt-get install -y docker-ce docker-compose
 ### 7. Agregar usuario al grupo docker y desloguearse y volverse a loguear
 
 ```
-sudo usermod -a -G docker kbs
+sudo usermod -a -G docker walli
 #(logout and login)
 ```
 
