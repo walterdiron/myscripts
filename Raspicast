@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#Instalar repositorios y aplicaciones necesarias:
+sudo apt-get install git make -y
+sudo apt-get install omxplayer -y
+cd ~
+git clone https://github.com/HaarigerHarald/omxiv.git
+sudo apt-get install libjpeg8-dev libpng12-dev
+cd ~/omxiv
+make ilclient
+make
+sudo make install
